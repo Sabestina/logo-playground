@@ -1,0 +1,4 @@
+to sofiacircle :c :s :n
+	setcolor :c
+	repeat 360/:n [ repeat 1 [ pu rt 120 fd :s pd rt 120 fd :s pu rt 120 fd :s pd] rt :n]
+end
